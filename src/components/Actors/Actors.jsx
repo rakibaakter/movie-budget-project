@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 import './Actors.css';
 import {FaFacebook} from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
-const Actors = ({actor}) => {
+const Actors = ({actor, cartHandler}) => {
+    // console.log(cartHandler)
     const {image, name, age, country, role, salary, fbUrl, twitter} = actor;
     return (
         <div className="card">
@@ -17,7 +18,7 @@ const Actors = ({actor}) => {
             <h3>Salary : ${salary}</h3>
             <p>Country {country}</p>
             <p>Age : {age}</p>
-            <button className='hire-btn'>Hire</button>
+            <button onClick={()=>cartHandler(actor)} className='hire-btn'>Hire</button>
         </div>
     );
 };

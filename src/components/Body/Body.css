@@ -1,13 +1,19 @@
 .body-container{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.card-container{
     background:url('https://i.ibb.co/JB1y0X5/4690.jpg') ,
     linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-}
-.card-container{
+    color: white;
+    width: 75%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 100px;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* row-gap: 100px; */
 }
