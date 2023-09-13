@@ -1,0 +1,34 @@
+.card{
+    border: 2px solid green;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    
+}
+.card a{
+    font-size: 24px;
+    color: green;
+    margin-right: 10px;
+}
+
+.role{
+    background: rgb(77, 69, 69);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.hire-btn{
+    text-transform: uppercase;
+    background: green;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 15px;
+}
+/* .hire-btn :hover{
+    cursor: pointer;
+    background-color: none;
+    border: 1px solid green;
+} */
