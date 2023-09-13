@@ -5,6 +5,7 @@
     position: fixed;
     right: 0 ;
     background: gainsboro;
+    
 }
 ul{
     list-style: none;
@@ -14,4 +15,19 @@ ul{
     margin: 10px;
     padding: 15px;
     border-radius: 15px;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+.profile{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+.item h3{
+    margin-left: 10px;
+}
+.list-container{
+    max-height: 70vh;;
+    overflow-y: scroll;
 }
