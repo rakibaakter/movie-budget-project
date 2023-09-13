@@ -1,5 +1,5 @@
 .body-container{
-    padding: 20px;
+    /* padding:0px 20px; */
     display: flex;
     flex-wrap: wrap;
     position: relative;
@@ -16,4 +16,19 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     /* row-gap: 100px; */
+}
+
+@media screen and (max-width:576px) {
+    .body-container{
+        /* padding: 5px; */
+        /* display: block; */
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+        position: static;
+    }
+    .card-container{
+        width: 100%;
+        grid-template-columns: 1fr;
+        margin-top: 250px;
+    }
 }
